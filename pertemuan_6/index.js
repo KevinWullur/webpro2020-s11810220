@@ -7,25 +7,25 @@
 
 //mendeklarasikan object
 //1. object literals
-//const mhs1 ={
-    //namaDepan : 'john',
-    //namaBelakang :'Doe',
-    //umur : 31,
-    //sudahLulus : true,
-    //alamat : {
-        //jalan :"Jln. Arnold Mononutu",
-        //kecamatan : "Airmadidi",
-        //kabupaten : "Minahasa Utara",
-    //},
-    //IPsemester : [3.05, 3.25, 3.0, 3.4],
-    //hitungIPK: function () {
-        //let total = 0;
-        //this.IPsemester.foreEach(function(el){
-            //total = total + el;
-        //});
-        //this.IPkumulatif = total / 4;
-    //},
-//};
+const mhs1 ={
+    namaDepan : 'john',
+    namaBelakang :'Doe',
+    umur : 31,
+    sudahLulus : true,
+    alamat : {
+        jalan :"Jln. Arnold Mononutu",
+        kecamatan : "Airmadidi",
+        kabupaten : "Minahasa Utara",
+    },
+    IPsemester : [3.05, 3.25, 3.0, 3.4],
+    hitungIPK: function () {
+        let total = 0;
+        this.IPsemester.foreEach(function(el){
+            total = total + el;
+        });
+        this.IPkumulatif = total / 4;
+    },
+};
 //delete mhs1.namaBelakang;
 //console.log
 

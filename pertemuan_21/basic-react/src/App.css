@@ -1,7 +1,15 @@
-.Header-container{
-  background-color: blueviolet;
-  border-width: 2px;
+.header-container {
+  background-color: silver;
+  border-width: 4px;
   border-color: black;
   border-style: solid;
+  margin:30px;
+}
+
+
+.card-container {
   margin: 10px;
+  padding: 11px;
+  font-weight: bold;
+  background-color:silver;
 }

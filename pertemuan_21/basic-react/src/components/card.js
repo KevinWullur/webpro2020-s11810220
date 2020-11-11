@@ -7,8 +7,9 @@ const Card = ({name, institution, address, phoneNumber}) =>{
             <p>{institution}</p>
             <p>{address}</p>
             <p>{phoneNumber}</p>
+            <counter title="Counter Component" />
         </div>
-    )
+    );
 };
 
 export default Card;

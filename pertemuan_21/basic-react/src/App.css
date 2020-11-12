@@ -1,15 +1,42 @@
-.header-container {
+/* .header-container {
   background-color: silver;
   border-width: 4px;
   border-color: black;
   border-style: solid;
   margin:30px;
-}
+}*/
 
 
-.card-container {
-  margin: 10px;
-  padding: 11px;
-  font-weight: bold;
-  background-color:silver;
-}
+
+
+body {
+  background: #c0ffee;
+  }
+  .App {
+  margin: 1em;
+  font-family: "Avenir", "Arial", sans-serif;
+  }
+  .list {
+  list-style: none;
+  }
+  .list-item {
+  padding: 1em;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 0.25em solid #cacaca;
+  margin-bottom: 1em;
+  }
+  .list-item-image-container {
+    flex: 1;
+  }
+  .list-item-image-container > img {
+    height: 4em;
+  }
+  .list-item-name {
+    flex: 3;
+  }
+  .list-item-power {
+    font-weight: bolder;
+    color: #ff0000;
+  }
